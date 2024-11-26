@@ -7,7 +7,7 @@ body {
     background: #2dbddd;
 }
 
-/* Animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -17,30 +17,30 @@ body {
     }
 }
 
-/* Header */
+
 header {
     display: flex;
-    align-items: center; /* Center the content horizontally */
-    justify-content: space-between; /* Center the content vertically */
+    align-items: center; 
+    justify-content: space-between;
     padding: 1rem 2rem;
     background-color: #B6FFFA;
     color: rgb(0, 0, 0);
 }
 
-/* Logo/Heading */
+
 header h1 {
     margin: 0;
     font-size: 2rem;
 }
 
-/* Navigation */
+
 header nav ul {
     display: flex;
-    gap: 2rem; /* Space between nav items */
+    gap: 2rem; 
     list-style: none;
     padding: 0;
     margin: 0;
-    justify-content: center; /* Center the nav items */
+    justify-content: center; 
     flex-grow: 1;
 }
 
@@ -54,7 +54,7 @@ header nav ul li a {
     font-size: 1.2rem;
 }
 
-/* Call to Action Button */
+
 header .cta-button {
     padding: 0.3rem 1.2rem;
     background-color: #52c3e2;
@@ -63,7 +63,7 @@ header .cta-button {
     border-radius: 10px;
     font-size: 1.2rem;
     transition: background-color 0.3s;
-    /* margin-top: 1.5rem; Space between the button and nav */
+   
 }
 
 header .cta-button:hover {
@@ -71,7 +71,7 @@ header .cta-button:hover {
     color: rgb(0, 0, 0);
 }
 
-/* Hero Section */
+
 #hero {
     text-align: center;
     padding: 3rem;
@@ -79,7 +79,7 @@ header .cta-button:hover {
     margin-bottom: 2rem;
 }
 
-/* Animation */
+
 @keyframes popUp {
     0% {
         transform: translateY(80px);
@@ -93,21 +93,21 @@ header .cta-button:hover {
 
 #hero h2,
 #hero p {
-    opacity: 0; /* Initially hide elements */
-    transform: translateY(30px); /* Move the element down initially */
-    animation: popUp 1s forwards; /* Apply animation */
+    opacity: 0; 
+    transform: translateY(30px); 
+    animation: popUp 1s forwards;
 }
 
-/* Add delays for sequential animations */
+
 #hero h2 {
-    animation-delay: 0.3s; /* Delay for the heading */
+    animation-delay: 0.3s; 
 }
 
 #hero p {
-    animation-delay: 0.6s; /* Delay for the paragraph */
+    animation-delay: 0.6s; 
 }
 
-/* Optional Styling */
+
 #hero h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
@@ -118,7 +118,7 @@ header .cta-button:hover {
     margin-bottom: 2rem;
 }
 
-/* About Section */
+
 #about {
     display: flex;
     justify-content: center;
@@ -127,10 +127,10 @@ header .cta-button:hover {
     margin-left: 5rem;
     background-color: #11bce7;
     opacity: 0;
-    animation: fadeInUp 1.5s forwards; /* Apply fade and slide-in animation */
+    animation: fadeInUp 1.5s forwards; 
 }
 
-/* Image Styling */
+
 .about-image img {
     width: 200px;
     height: 200px;
@@ -140,17 +140,17 @@ header .cta-button:hover {
     opacity: 0;
     transform: translateY(30px);
     animation: popUp 1s forwards;
-    animation-delay: 0.3s; /* Delay the image animation */
+    animation-delay: 0.3s; 
 }
 
-/* Text Styling */
+
 .about-text h3 {
     font-size: 2rem;
     margin-bottom: 1rem;
     opacity: 0;
     transform: translateY(30px);
     animation: popUp 1s forwards;
-    animation-delay: 0.6s; /* Delay the text animation */
+    animation-delay: 0.6s; 
 }
 
 .about-text p {
@@ -158,10 +158,10 @@ header .cta-button:hover {
     opacity: 0;
     transform: translateY(30px);
     animation: popUp 4s forwards;
-    animation-delay: 0.8s; /* Delay the paragraph animation */
+    animation-delay: 0.8s; 
 }
 
-/* Animation Keyframes */
+
 @keyframes popUp {
     0% {
         opacity: 0;
@@ -185,7 +185,7 @@ header .cta-button:hover {
 }
 
 
-/* Skills Section */
+
 #skills {
     display: flex;
     justify-content: center;
@@ -209,7 +209,7 @@ header .cta-button:hover {
     margin-bottom: 0.5rem;
 }
 
-/* Contact Section */
+
 #contact {
     padding: 3rem;
     background-color: #326fca;
@@ -242,7 +242,7 @@ header .cta-button:hover {
     background-color: #7558b9;
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 1rem;
